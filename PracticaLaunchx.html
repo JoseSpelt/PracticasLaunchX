@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deku Restaurant</title>
+</head>
+<body>
+    <header>
+        <h1>Restaurant Deku 2022</h1>
+    </header>
+    <img src="./restaurantdeku.png" alt="logo restaurant deku" height="500px" width="500px">
+    <section>
+        <h2>Menu</h2>
+        <h3> Hamburguesas </h3>
+        <p>Todas inlcuyen Papas Chicas</p>
+        <ul>
+            <li>Simple.........................20.000Gs.</li>
+            <li>Doble............................30.000Gs.</li>
+            <li>Triple............................40.000Gs.</li>
+            <li>Vegetariana...................35.000Gs.</li>
+        </ul>
+        <h3> Pizzas </h3>
+        <p>Todas incluyen Gaseosa de 1L</p>
+        <ul>
+            <li>Napolitana.....................30.000Gs.</li>
+            <li>Mosarela........................40.000Gs.</li>
+            <li>Pepperoni.......................35.000Gs.</li>
+            <li>Cuatro quesos.................25.000Gs.</li>
+        </ul>
+        <h3>Especiales</h3>
+        <p>Agranda cada especial pagando 10.000GS. mas</p>
+            <dt>
+                <dt><b>Deku</b> ................................ 65.000Gs.</dt>
+                <dd>-Hambuerguesa Doble + Papas Fritas + Gaseosa</dd>
+                <dt><b>Bakugo</b> ............................ 70.000Gs.</dt>
+                <dd>-Pizza de Pepperoni + Gaseosa</dd>
+                <dt><b>Todoroki</b> .......................... 80.000Gs.</dt>
+                <dd>-Hambuerguesa Triple + Papas + Gaseosa 1L</dd>
+            </dt>
+    </section>
+
+    <hr>
+    <section>
+        <h2>Ubicacion</h2>
+        <h3>Sucursales</h3>
+        <table>
+            <tr>
+                <th>Nombre</th>
+                <th>Ubicacion</th>
+                <th>Horarios</th>
+            </tr>
+            <tr>
+                <td>Centro</td>
+                <td><a href="https://goo.gl/maps/VMmDR8xwVgJKfyNJ7" target="_blank">Plaza Madero, Asuncion</a></td>
+                <td>Lunes a Domingo 24Hs.</td>
+            </tr>
+            <tr>
+                <td>Sur</td>
+                <td><a href="https://goo.gl/maps/oguDnfAJL2yuaoan9" target="_blank">Shopping, Mariano Roque Alonso</a></td>
+                <td>Luneas a Domingo 24Hs.</td>
+            </tr>
+            <tr>
+                <td>Norte</td>
+                <td><a href="https://goo.gl/maps/6wPGfSN8RiTRXBXS6" target="_blank">Avda Humaita, Luque</a></td>
+                <td>Lunes a Domingo 24Hs.</td>
+            </tr>
+        </table>
+    </section>
+    <hr> 
+    <section>
+        <h2>Pedidos</h2>
+        <h3>Haz tu pedido aqui</h3>
+        <form action="">
+            <p>De que Sucursal quieres?</p>
+        <select>
+            <option value="Norte">Norte</option>
+            <option value="Sur">Sur</option>
+            <option value ="Centro">Centro</option>
+        </select>
+        <p>Cual es tu pedido?</p>
+        <input type="checkbox" id="Hamburguesas" name="Hamburguesas" value="Hamburguesas">
+        <label for="Hamburguesas">Hamburguesas</label>
+        <br>
+        <select>
+            <option value="Simple">Simple</option>
+            <option value="Doble">Doble</option>
+            <option value ="Triple">Triple</option>
+            <option value ="Vegetariana">Vegetariana</option>
+        </select><br>
+        <input type="checkbox" id="Pizzas" name="Pizzas" value="Pizzas">
+        <label for="Pizzas">Pizzas</label>
+        <br>
+        <select>
+            <option value="Napolitana">Napolitana</option>
+            <option value="Mosarela">Mosarela</option>
+            <option value ="Pepperoni">Pepperoni</option>
+            <option value ="Cuatro quesos">Cuatro quesos</option>
+        </select>
+        <br>
+        <input type="checkbox" id="Especiales" name="Especiales" value="Especiales">
+        <label for="Especiales">Especiales</label>
+        <br>
+        <select>
+            <option value="Deku">Deku</option>
+            <option value="Bakugo">Bakugo</option>
+            <option value ="Todoroki">Todoroki</option>
+        </select>
+        <br><br>
+
+        <label for="Nombre">Nombre:</label><br>
+        <input type="text" id="Nombre" name="Nombre" placeholder="Como te llamas?">
+
+        <br><br>
+
+        <label for="Telefono">Telefono:</label><br>
+        <input type="text" id="Telefono" name="Telefono" placeholder="Cual es tu telefono?">
+
+        <br><br>
+
+        <label for="Direccion">Direccion:</label><br>
+        <input type="text" id="Direccion" name="Direccion" placeholder="A donde la mandamos?">
+        
+        <br><br>
+
+        <button type="submit">Enviar pedido</button>
+        </form>
+    </section>
+</body>
+</html>
